@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+}
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(8 , 9 , 36, .2);
+}
+.mainHeader_buttons .mainButton{
+    margin-right: 20px;
+    /* color: #73D2BD; */
+}
+.mainBody{
+    flex: 1;
+    padding: 50px;
+    overflow-y: auto;
+}
+.mainButton::-webkit-scrollbar {
+    display:none;
+}

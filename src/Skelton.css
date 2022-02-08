@@ -1,0 +1,17 @@
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 10vh;
+    min-height: 10vh;
+    background-color: rgba(8 , 9 , 36, .9);
+    border-radius: 30px;
+    margin-top: 20px;
+    animation: skeleton 1s ease infinite alternate;
+}
+
+@keyframes skeleton {
+  to {
+    opacity: 0.5;
+  }
+}

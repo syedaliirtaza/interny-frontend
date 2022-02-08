@@ -1,0 +1,74 @@
+.sideBar{
+    display: felx;
+    flex-direction: column;
+    flex: 0.35;
+    padding: 20px;
+    border-right: 1px solid rgba(8 , 9 , 36, .2);
+}
+.sideBarHeader{
+    display: flex;
+    align-items: center;
+
+}
+.sideBarHeader_icon{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.sideBarHeader_heading{
+    margin-left: 30px;
+}
+.heading:hover{
+    color: rgb(226, 225, 223);
+    cursor: pointer;
+}
+.heading{
+    font-size: 30px;
+    color: rgba(8 , 9 , 36, .8);
+}
+.sideBarMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.sideBarMain_head{
+    text-align: center;
+}
+.mainHeading{
+    font-size: 80px;
+    color: rgba(8 , 9 , 36);
+}
+.mainParagraph{
+    font-size: 20px;
+    color: rgba(8 , 9 , 36, .5)
+}
+.heading_focus{
+    color: #73D2BD;
+}
+.sideBarMain_Button{
+    margin-top: 1%;
+    
+}
+.button_getIn{
+    border: none;
+    background-color: #73D2BD;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: black;
+    font-size: 15px;
+    color: wheat;
+    cursor: pointer;
+}
+.button_getIn:hover{
+    background-color: rgb(13, 14, 49);
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.socials a{
+    text-decoration: none;
+}
